@@ -2,10 +2,6 @@
 
 module.exports = function(name){
 
-  if (name == 'string'){
+  return 'hello ' + name;
 
-    return 'hello ' + name;
-
-  }
-
-}
+};

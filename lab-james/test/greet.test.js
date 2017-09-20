@@ -3,8 +3,8 @@
 const greet = require('../lib/greet.js');
 const expect = require('expect');
 
-test('greets user with name that is string', () => {
+it('greets user with name that is string', () => {
 
-  expect(greet('james')).typeOf('string');
+  expect(greet('james')).toBe('hello james');
 
 });
