@@ -2,6 +2,14 @@
 
 module.exports = function(name){
 
-  return 'hello ' + name;
+  if(typeof name === 'string'){
+
+    return 'hello ' + name;
+
+  } else {
+
+    return null;
+    
+  }
 
 };
