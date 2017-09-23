@@ -4,12 +4,28 @@ let arithmetic = module.exports = {};
 
 arithmetic.add = function(a,b){
 
-  return a + b;
+  if(typeof a === 'number' && typeof b === 'number'){
+
+    return a + b;
+
+  } else {
+
+    return null;
+
+  }
 
 };
 
 arithmetic.sub = function(a,b){
 
-  return a - b;
+  if(typeof a === 'number' && typeof b === 'number'){
+
+    return a - b;
+
+  } else {
+
+    return null;
+    
+  }
 
 };
